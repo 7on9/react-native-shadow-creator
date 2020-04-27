@@ -1,0 +1,15 @@
+{
+  "name": "react-native-shadow-creator",
+  "version": "1.0.0",
+  "description": "Small util that make shadow attribute for your component ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shadow",
+    "react-native"
+  ],
+  "author": "Long Nguyen",
+  "license": "ISC"
+}
