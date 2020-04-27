@@ -1,4 +1,4 @@
-import { hexToRgbA } from './colors'
+import { hexToRgba } from './colors'
 
 /**
  * TODO: Create shadow for object
@@ -7,7 +7,7 @@ import { hexToRgbA } from './colors'
  */
 export const shadow = (depth, color) => {
     depth--
-    color = color ? hexToRgbA(color, 1) : hexToRgbA('#000', 1) //'rgba(0, 0, 0, 0.4)'
+    color = color ? hexToRgba(color, 1) : hexToRgba('#000', 1) //'rgba(0, 0, 0, 0.4)'
     const s = parseShadow(androidDepth.penumbra[depth])
     const y = s.y === 1 ? 1 : Math.floor(s.y * 0.5)
     return {
