@@ -11,5 +11,6 @@
     "react-native"
   ],
   "author": "Long Nguyen",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
