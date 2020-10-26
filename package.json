@@ -12,5 +12,8 @@
   ],
   "author": "Long Nguyen",
   "license": "ISC",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "repository": {
+    "url": "https://github.com/7on9/react-native-shadow-creator.git"
+  }
 }
